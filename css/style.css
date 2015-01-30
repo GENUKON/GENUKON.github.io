@@ -1,0 +1,153 @@
+::-moz-selection {
+  color: #fff;
+  background-color: rgba(34, 178, 154, .99609375)
+}
+
+::selection {
+  color: #fff;
+  background-color: rgba(34, 178, 154, .99609375)
+}
+
+
+header .column {
+	margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#hero-image {
+  margin-bottom: 6rem;
+  background-image: url('http://previews.123rf.com/images/robynmac/robynmac1304/robynmac130400061/19380204-food-background-with-parmesan-cheese-fresh-herbs-and-olives-over-dark-slate--lots-of-copy-space.jpg');
+  height: 15rem;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: none;
+  background-attachment: fixed;
+}
+
+.row {
+  	margin-bottom: 8.3%;
+}
+
+svg {
+	width: 33.2%;
+	padding-right: 0;
+	height: 20%;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+}
+
+#logo-type {
+	display: none;
+	fill: #222;
+}
+
+#logo-g {
+	fill: #22B29A;
+}
+
+#logo-k {
+	fill: #154B66;
+}
+
+[data-icon] {
+  margin: 0 .4rem .4rem 0;
+}
+
+[data-icon] {
+  overflow: hidden;
+}
+
+[data-icon]:before {
+  vertical-align: middle;
+  font-size: 1.7rem;
+}
+
+[data-icon] span {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 0 0 0.8rem;
+  margin-left: -20rem;
+  width: auto;
+  opacity: 0;
+  -webkit-transition: margin-left 250ms, opacity 50ms ease-out;
+}
+
+[data-icon]:hover span {
+  margin-left: 0;
+  opacity: 1;
+  -webkit-transition: margin-left 250ms, opacity 500ms ease-in;
+}
+
+a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px #22B29A solid;
+  padding: 0 8px;
+  color: #22B29A;
+  vertical-align: top;
+  -webkit-border-radius: 4px;
+  -webkit-transition: all 250ms ease;
+}
+	
+a:hover {
+	border-color: #154B66;
+	color: #154B66;
+	
+}
+
+th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+#imprint {
+  text-align: center;
+}
+
+#imprint a {
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+}
+
+@media (min-width: 550px) {
+  body {
+    font-size: 2em;
+  }
+  
+	svg {
+		width: 16.6%;
+		padding-right: 37.4%;
+		height: 10%;
+		overflow: visible;
+	}
+	
+	#logo-type {
+		display: block;
+	}
+}
+
+@media (min-width: 750px) {
+header .column {
+	margin-top: 6rem;
+  margin-bottom: 0;
+}
+  
+  #hero-image {
+    height: 40vh;
+    display: block;
+  }
+	
+
+}
